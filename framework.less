@@ -1,0 +1,40 @@
+.nowrap {
+    white-space: nowrap;
+}
+
+.rounded(@radius) {
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.rounded-top-left(@radius) {
+  -moz-border-radius-topleft: @radius;
+  -webkit-border-top-left-radius: @radius;
+  border-top-left-radius: @radius;
+}
+.rounded-bottom-left(@radius) {
+  -moz-border-radius-bottomleft: @radius;
+  -webkit-border-bottom-left-radius: @radius;
+  border-bottom-left-radius: @radius;
+}
+
+.rounded-bottom-right(@radius) {
+  -moz-border-radius-bottomright: @radius;
+  -webkit-border-bottom-right-radius: @radius;
+  border-bottom-right-radius: @radius;
+}
+
+.rounded-top-right(@radius) {
+  -moz-border-radius-topright: @radius;
+  -webkit-border-top-right-radius: @radius;
+  border-top-right-radius: @radius;
+}
+
+.clearfix {
+   &:after {
+     content: '';
+     display: block;
+     clear: both;
+   } 
+}
